@@ -1,0 +1,12 @@
+1. Introduction to PHP MySQL
+
+1.1 Introduction to PHP
+PHP merupakan bahasa pemrogramman paling populer yang digunakan dalam membuat sebuah
+website. Berdasarkan survei dari Wtechs, bahasa pemrogramman PHP merupakan bahasa pemrogramman
+server-side yang paling populer, melebihi ASP.NET maupun dengan Java.
+
+1.2 Introduction to MySQL
+MySQL adalah sebuah perangkat lunak sistem manajemen basis data SQL (bahasa Inggris: database management system) atau DBMS yang multialur, multipengguna, dengan sekitar 6 juta instalasi di seluruh dunia. MySQL AB membuat MySQL tersedia sebagai perangkat lunak gratis di bawah lisensi GNU General Public License (GPL), tetapi mereka juga menjual di bawah lisensi komersial untuk kasus-kasus di mana penggunaannya tidak cocok dengan penggunaan GPL.
+
+1.3 Configuring and Testing Software
+Test Environment harus sedekat mungkin dengan Live Environment dalam semua aspek sehingga dapat disimulasikan seperti pada kenyataannya. Meskipun mungkin tidak mungkin untuk menciptakan lingkungan yang 100% sama seperti yang akan berada dalam Live Environment karena environment yang sama dapat menyebabkan sejumlah besar uang dan banyak upaya yang secara praktis tidak mungkin dilakukan.
