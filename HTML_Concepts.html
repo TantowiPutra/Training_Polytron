@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML_Concepts</title>
+</head>
+
+<body>
+    <!-- 
+    2 HTML Concepts
+    2.1 Markup Languages
+        Hypertext Markup Language (HTML) adalah sebuah bahasa markah yang digunakan untuk membuat sebuah halaman web, menampilkan berbagai informasi di dalam sebuah penjelajah web Internet dan pemformatan hiperteks sederhana yang ditulis dalam berkas format ASCII agar dapat menghasilkan tampilan wujud yang terintegerasi. Dengan kata lain, berkas yang dibuat dalam perangkat lunak pengolah kata dan disimpan dalam format ASCII normal sehingga menjadi halaman web dengan perintah-perintah HTML.
+    2.2 Syntax of HTML
+    2.3 HTML Tags
+ -->
+
+    <!-- 
+    2.4 HTML Forms 
+    Elemen HTML <form> mendefinisikan formulir yang digunakan untuk mengumpulkan input pengguna:
+-->
+    <form action="">
+        <!-- 2.5 Form Elements -->
+        <!-- 2.5.1 <select> Element -->
+        <!-- Elemen <select> mendefinisikan daftar turun bawah: -->
+        <div>
+            <select name="cars" id="">
+                <!-- 
+                Elemen <option> menentukan opsi yang dapat dipilih.
+                Secara default, item pertama dalam daftar drop-down dipilih.
+                Untuk menentukan opsi yang dipilih sebelumnya, tambahkan atribut selected ke opsi:
+             -->
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+            </select>
+        </div>
+    </form>
+
+    <!-- 
+            2.5.2 <textarea> element 
+            Elemen <textarea> mendefinisikan bidang input multi-baris (area teks):
+            Atribut rows menentukan jumlah baris yang dapat terlihat dalam area teks.
+            Atribut cols menentukan lebar yang terlihat dari area teks
+        -->
+    <textarea name="message" id="" cols="30" rows="10" style="display: block;">
+        The cat was playing in the garden.
+        </textarea>
+
+    <div>
+        <!-- 
+                2.5.3 <button> Element
+                Elemen <button> menentukan tombol yang dapat diklik:
+             -->
+        <button type="button" onclick="alert('Hello World')">Click Me!</button>
+    </div>
+
+    <div>
+        <!-- 
+            2.5.4	<datalist> Element
+                    Elemen <datalist> menentukan daftar opsi yang telah ditentukan untuk elemen <input>.
+                    Pengguna akan melihat daftar drop-down dari opsi yang telah ditentukan saat mereka memasukkan data.
+                    Atribut daftar elemen <input>, harus merujuk ke atribut id dari elemen <datalist>.
+         -->
+        <form action="/HTML_Concepts.html">
+            <input list="browsers">
+            <datalist id="browsers">
+                <option value="Internet Explorer"></option>
+                <option value="Firefox"></option>
+                <option value="Chrome"></option>
+                <option value="Chrome 2"></option>
+                <option value="Opera"></option>
+                <option value="Safari"></option>
+            </datalist>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div>
+        <!-- 
+            2.5.5	<output> Element
+                    Elemen <output> mewakili hasil perhitungan (seperti yang dilakukan oleh skrip).
+         -->
+        <form action="/action_page.php" oninput="x.value = parseInt(a.value) + parseInt(b.value)">
+            0
+            <input type="range" id="a" name="a" value="50" min="100" max="200">
+            100 +
+            <input type="number" id="b" name="b" value="50" min="100" max="200">
+            =
+            <output name="x" for="a b"></output>
+            <br><br>
+            <input type="submit">
+        </form>
+    </div>
+</body>
+
+</html>
