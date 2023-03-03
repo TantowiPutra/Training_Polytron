@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics</title>
+    <style>
+        p {
+            color: red;
+            text-align: center;
+        }
+
+        #para1 {
+            text-align: center;
+            color: blue;
+        }
+
+        .center {
+            text-align: center;
+            color: green;
+        }
+
+        /* p.center {
+            text-align: center;
+            color: red;
+        }
+
+        p.large {
+            font-size: 300%;
+        } */
+    </style>
+</head>
+
+<body>
+    <!-- 2.6 CSS Basics -->
+    <p>Hello World!</p>
+    <p>These paragraphs are styled with CSS.</p>
+
+    <!-- 
+        2.6.1 id Selector
+                ID Selector menggunakan atribut id dari elemen HTML untuk memilih elemen tertentu.
+                ID suatu elemen harus unik di dalam halaman, jadi ID Selector digunakan untuk memilih satu elemen unik!
+                Untuk memilih elemen dengan id tertentu, tulis karakter hash (#), diikuti oleh id elemen.
+    -->
+    <p id="para1">Hello World!</p>
+    <p id="para1">This paragraph is affected by CSS Id Selector</p>
+
+    <!-- 
+        2.6.1 class Selector
+        Class selector memilih elemen dengan atribut kelas tertentu.
+        Untuk memilih elemen dengan kelas tertentu, tulis karakter titik (.), Diikuti dengan nama kelas.
+    -->
+    <h1 class="center">Green and center-aligned heading</h1>
+    <p class="center">Green and center-aligned paragraph.</p>
+
+    <!-- 
+        Elemen HTML juga dapat merujuk ke lebih dari satu kelas.
+        Pada contoh di bawah ini, elemen <p> akan ditata sesuai dengan class = "center" dan ke class = "large":
+     -->
+    <h1 class="center">This heading will not be affected</h1>
+    <p class="center">This paragraph will be red and center-aligned.</p>
+    <p class="center large">This paragraph will be red, center-aligned, and in a large font-size.</p>
+
+</body>
+
+</html>
