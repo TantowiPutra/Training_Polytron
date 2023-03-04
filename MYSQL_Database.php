@@ -180,19 +180,6 @@
 
         5.7	Understanding Database Normalization
         Normalisasi database adalah proses penataan database relasional sesuai dengan serangkaian bentuk normal yang disebut untuk mengurangi redundansi data dan meningkatkan integritas data.
-
-
-
-
-
-
-
-
-
-
-
-
-
       -->
 </body>
 
